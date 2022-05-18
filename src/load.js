@@ -1,4 +1,4 @@
-import {Library} from "@observablehq/stdlib";
+import {Library} from "@quarto/external-observablehq-stdlib";
 import Runtime from "./runtime";
 
 export default function load(notebook, library, observer) {

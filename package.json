@@ -1,16 +1,16 @@
 {
-  "name": "@observablehq/runtime",
+  "name": "@quarto/external-observablehq-runtime",
   "version": "4.21.0",
   "license": "ISC",
   "main": "dist/runtime.umd.js",
   "module": "src/index.js",
   "author": {
-    "name": "Observable, Inc.",
+    "name": "Quarto Authors, RStudio, PBC.",
     "url": "https://observablehq.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/observablehq/runtime.git"
+    "url": "https://github.com/quarto-dev/external-observablehq-runtime.git"
   },
   "scripts": {
     "test": "tape -r esm 'test/**/*-test.js'",
@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "@observablehq/inspector": "^3.2.2",
-    "@observablehq/stdlib": "^3.4.1"
+    "@quarto/external-observablehq-stdlib": "^3.4.1"
   },
   "devDependencies": {
     "eslint": "^7.18.0",

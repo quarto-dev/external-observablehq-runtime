@@ -1,4 +1,4 @@
-import {Library, FileAttachments} from "@observablehq/stdlib";
+import {Library, FileAttachments} from "@quarto/external-observablehq-stdlib";
 import {RuntimeError} from "./errors";
 import generatorish from "./generatorish";
 import load from "./load";
