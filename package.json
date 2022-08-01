@@ -6,7 +6,7 @@
   "module": "src/index.js",
   "author": {
     "name": "Quarto Authors, RStudio, PBC.",
-    "url": "https://observablehq.com"
+    "url": "https://quarto.org"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "@observablehq/inspector": "^3.2.2",
-    "@quarto/external-observablehq-stdlib": "^3.16.2"
+    "@quarto/external-observablehq-stdlib": "^3.19.9"
   },
   "devDependencies": {
     "eslint": "^7.18.0",
